@@ -1,0 +1,1231 @@
+INFO 2025-09-26 20:21:56,301 autoreload 9940 10220 Watching for file changes with StatReloader
+INFO 2025-09-26 20:26:44,303 autoreload 9940 10220 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 20:26:48,772 autoreload 11976 8700 Watching for file changes with StatReloader
+INFO 2025-09-26 20:26:59,097 autoreload 11976 8700 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 20:27:01,935 autoreload 11808 11768 Watching for file changes with StatReloader
+INFO 2025-09-26 20:27:14,838 autoreload 11808 11768 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\wsgi.py changed, reloading.
+INFO 2025-09-26 20:27:17,237 autoreload 13812 15572 Watching for file changes with StatReloader
+INFO 2025-09-26 20:30:12,429 autoreload 14828 16428 Watching for file changes with StatReloader
+INFO 2025-09-26 20:30:31,914 basehttp 14828 13224 "GET /admin/ HTTP/1.1" 302 0
+ERROR 2025-09-26 20:30:35,340 log 14828 13224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\views.py", line 42, in home_view
+    return render(request, 'home.html', context)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR 2025-09-26 20:30:35,347 basehttp 14828 13224 "GET / HTTP/1.1" 500 100738
+WARNING 2025-09-26 20:30:35,608 log 14828 13224 Not Found: /favicon.ico
+WARNING 2025-09-26 20:30:35,609 basehttp 14828 13224 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:31:59,642 log 14828 14704 Not Found: /favicon.ico
+WARNING 2025-09-26 20:31:59,644 basehttp 14828 14704 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:32:01,447 log 14828 3412 Not Found: /logo192.png
+WARNING 2025-09-26 20:32:01,448 basehttp 14828 3412 "GET /logo192.png HTTP/1.1" 404 4167
+ERROR 2025-09-26 20:35:27,650 log 14828 13224 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\views.py", line 42, in home_view
+    return render(request, 'home.html', context)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+ERROR 2025-09-26 20:35:27,655 basehttp 14828 13224 "GET / HTTP/1.1" 500 101003
+WARNING 2025-09-26 20:35:27,757 log 14828 13224 Not Found: /favicon.ico
+WARNING 2025-09-26 20:35:27,757 basehttp 14828 13224 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 20:35:55,365 autoreload 14828 16428 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 20:35:57,866 autoreload 14976 9224 Watching for file changes with StatReloader
+INFO 2025-09-26 20:36:05,927 autoreload 14976 9224 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 20:36:08,281 autoreload 16248 15736 Watching for file changes with StatReloader
+INFO 2025-09-26 20:36:23,899 basehttp 16248 16580 "GET / HTTP/1.1" 200 6552
+WARNING 2025-09-26 20:36:24,202 log 16248 16580 Not Found: /favicon.ico
+WARNING 2025-09-26 20:36:24,204 basehttp 16248 16580 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 20:36:26,793 basehttp 16248 16580 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-26 20:36:26,976 basehttp 16248 16580 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 72496
+INFO 2025-09-26 20:36:27,002 basehttp 16248 16580 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:27,008 basehttp 16248 14256 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+WARNING 2025-09-26 20:36:27,022 basehttp 16248 16580 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 20:36:27,022 basehttp 16248 3872 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:27,023 basehttp 16248 15004 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 304 0
+WARNING 2025-09-26 20:36:27,041 basehttp 16248 9272 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:36:27,050 basehttp 16248 3872 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:27,050 basehttp 16248 15004 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+WARNING 2025-09-26 20:36:27,052 basehttp 16248 16372 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:36:27,078 basehttp 16248 3872 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:27,096 basehttp 16248 3872 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:27,096 basehttp 16248 15004 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:27,097 basehttp 16248 14256 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:27,098 basehttp 16248 1136 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:36:40,917 basehttp 16248 1136 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-09-26 20:36:41,049 basehttp 16248 1136 "GET /admin/ HTTP/1.1" 200 93724
+WARNING 2025-09-26 20:36:41,171 basehttp 16248 14256 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:36:41,172 basehttp 16248 1136 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:36:41,173 basehttp 16248 15004 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:36:41,203 basehttp 16248 3872 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:37:00,899 basehttp 16248 12240 "GET /admin/users/notification/ HTTP/1.1" 200 80938
+WARNING 2025-09-26 20:37:00,958 basehttp 16248 12240 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:37:00,988 basehttp 16248 3412 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 20:37:00,993 basehttp 16248 4332 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+WARNING 2025-09-26 20:37:01,021 basehttp 16248 13332 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:37:01,024 basehttp 16248 5848 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,025 basehttp 16248 17004 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,035 basehttp 16248 4332 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,040 basehttp 16248 16984 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,045 basehttp 16248 5848 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,046 basehttp 16248 11848 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,048 basehttp 16248 17004 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,059 basehttp 16248 17004 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,060 basehttp 16248 11848 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:01,096 basehttp 16248 9732 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 20:37:05,312 basehttp 16248 9732 "GET /admin/users/notification/add/ HTTP/1.1" 200 84979
+WARNING 2025-09-26 20:37:05,380 basehttp 16248 9732 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:37:05,385 basehttp 16248 17004 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 20:37:05,386 basehttp 16248 16984 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:05,400 basehttp 16248 4332 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+WARNING 2025-09-26 20:37:05,413 basehttp 16248 11848 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:37:05,419 basehttp 16248 16984 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:05,419 basehttp 16248 4332 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:05,427 basehttp 16248 5848 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 20:37:05,430 basehttp 16248 4332 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:05,438 basehttp 16248 4332 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:05,464 basehttp 16248 4332 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:05,465 basehttp 16248 5848 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:21,143 basehttp 16248 5848 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 20:37:21,198 basehttp 16248 16984 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:37:21,199 basehttp 16248 4332 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:37:21,199 basehttp 16248 5848 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:37:21,213 basehttp 16248 8228 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:37:21,216 basehttp 16248 8136 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:37:21,230 basehttp 16248 8136 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:37:21,248 basehttp 16248 5704 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:37:24,788 basehttp 16248 11880 "GET /admin/products/product/add/ HTTP/1.1" 200 112771
+WARNING 2025-09-26 20:37:24,881 basehttp 16248 11880 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:37:24,903 basehttp 16248 4944 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:37:24,925 basehttp 16248 15516 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:37:24,927 basehttp 16248 11896 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:37:24,928 basehttp 16248 12860 "GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+INFO 2025-09-26 20:37:24,943 basehttp 16248 11388 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:37:24,972 basehttp 16248 11388 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:37:25,007 basehttp 16248 12860 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:37:25,044 basehttp 16248 14704 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:37:50,150 log 16248 1080 Not Found: /favicon.ico
+WARNING 2025-09-26 20:37:50,152 basehttp 16248 1080 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:37:50,453 log 16248 11628 Not Found: /logo192.png
+WARNING 2025-09-26 20:37:50,454 basehttp 16248 11628 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:38:32,166 autoreload 13564 8204 Watching for file changes with StatReloader
+INFO 2025-09-26 20:38:46,299 basehttp 16248 1652 "GET / HTTP/1.1" 200 6552
+WARNING 2025-09-26 20:38:51,403 log 13564 15548 Not Found: /favicon.ico
+WARNING 2025-09-26 20:38:51,408 basehttp 13564 15548 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 20:38:51,738 basehttp 13564 1296 "GET /admin/ HTTP/1.1" 200 93724
+WARNING 2025-09-26 20:38:51,836 basehttp 13564 1296 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:38:51,837 basehttp 13564 15548 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:38:51,865 basehttp 13564 16460 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:38:51,939 basehttp 13564 4004 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:38:59,232 basehttp 13564 756 "GET /admin/users/user/?q= HTTP/1.1" 200 88313
+WARNING 2025-09-26 20:38:59,272 basehttp 13564 756 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:38:59,294 basehttp 13564 7904 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:38:59,305 basehttp 13564 5808 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:38:59,311 basehttp 13564 16600 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:38:59,324 basehttp 13564 16600 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:38:59,337 basehttp 13564 12544 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:39:03,330 basehttp 13564 13904 "GET /admin/products/product/?q= HTTP/1.1" 200 81546
+WARNING 2025-09-26 20:39:03,401 basehttp 13564 17124 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:39:03,401 basehttp 13564 13904 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:39:03,413 basehttp 13564 8460 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:39:03,415 basehttp 13564 11620 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:39:03,422 basehttp 13564 6540 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:39:03,443 basehttp 13564 6540 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:39:03,464 basehttp 13564 10024 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:39:06,060 basehttp 13564 8460 "GET /admin/orders/order/?q= HTTP/1.1" 200 83132
+WARNING 2025-09-26 20:39:06,097 basehttp 13564 9020 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:39:06,107 basehttp 13564 8664 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:39:06,117 basehttp 13564 8460 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:39:06,135 basehttp 13564 7584 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:39:06,153 basehttp 13564 7584 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:39:06,167 basehttp 13564 12296 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:39:10,818 log 13564 9468 Not Found: /favicon.ico
+WARNING 2025-09-26 20:39:10,820 basehttp 13564 9468 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:39:11,049 log 13564 8352 Not Found: /logo192.png
+WARNING 2025-09-26 20:39:11,050 basehttp 13564 8352 "GET /logo192.png HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:41:24,485 log 13564 12304 Not Found: /favicon.ico
+WARNING 2025-09-26 20:41:24,487 basehttp 13564 12304 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:41:24,795 log 13564 8532 Not Found: /logo192.png
+WARNING 2025-09-26 20:41:24,797 basehttp 13564 8532 "GET /logo192.png HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:42:46,062 log 13564 9272 Not Found: /logo192.png
+WARNING 2025-09-26 20:42:46,064 basehttp 13564 9272 "GET /logo192.png HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:44:46,782 log 13564 3228 Not Found: /main.b1c018739882bbacff1f.hot-update.json
+WARNING 2025-09-26 20:44:46,784 basehttp 13564 3228 "GET /main.b1c018739882bbacff1f.hot-update.json HTTP/1.1" 404 4257
+INFO 2025-09-26 20:44:47,437 basehttp 13564 16736 "OPTIONS /api/products/categories/ HTTP/1.1" 200 0
+INFO 2025-09-26 20:44:47,438 basehttp 13564 4336 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-09-26 20:44:47,438 basehttp 13564 2216 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-09-26 20:44:47,439 basehttp 13564 12188 "OPTIONS /api/products/categories/ HTTP/1.1" 200 0
+WARNING 2025-09-26 20:44:47,510 log 13564 16460 Not Found: /logo192.png
+WARNING 2025-09-26 20:44:47,512 basehttp 13564 16460 "GET /logo192.png HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:44:47,583 log 13564 16736 Unauthorized: /api/products/
+WARNING 2025-09-26 20:44:47,588 log 13564 2216 Unauthorized: /api/products/categories/
+WARNING 2025-09-26 20:44:47,591 basehttp 13564 16736 "GET /api/products/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,593 basehttp 13564 2216 "GET /api/products/categories/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,603 log 13564 16736 Unauthorized: /api/products/
+WARNING 2025-09-26 20:44:47,611 log 13564 2216 Unauthorized: /api/products/categories/
+WARNING 2025-09-26 20:44:47,613 basehttp 13564 16736 "GET /api/products/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,617 basehttp 13564 2216 "GET /api/products/categories/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,628 log 13564 2216 Unauthorized: /api/products/categories/
+WARNING 2025-09-26 20:44:47,641 log 13564 16736 Unauthorized: /api/products/
+WARNING 2025-09-26 20:44:47,643 basehttp 13564 2216 "GET /api/products/categories/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,645 basehttp 13564 16736 "GET /api/products/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,661 log 13564 2216 Unauthorized: /api/products/
+WARNING 2025-09-26 20:44:47,665 log 13564 16736 Unauthorized: /api/products/categories/
+WARNING 2025-09-26 20:44:47,666 basehttp 13564 2216 "GET /api/products/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,668 basehttp 13564 16736 "GET /api/products/categories/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:44:47,712 log 13564 14828 Not Found: /logo192.png
+WARNING 2025-09-26 20:44:47,713 basehttp 13564 14828 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:44:47,736 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:44:47,751 log 13564 12936 Not Found: /logo192.png
+INFO 2025-09-26 20:44:47,752 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:44:47,752 basehttp 13564 12936 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:44:47,780 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:44:47,794 log 13564 9860 Not Found: /logo192.png
+INFO 2025-09-26 20:44:47,798 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:44:47,799 basehttp 13564 9860 "GET /logo192.png HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:44:47,975 log 13564 6256 Not Found: /logo192.png
+WARNING 2025-09-26 20:44:47,976 basehttp 13564 6256 "GET /logo192.png HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:44:48,156 log 13564 17248 Not Found: /logo192.png
+WARNING 2025-09-26 20:44:48,157 basehttp 13564 17248 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:44:50,525 basehttp 13564 16736 "OPTIONS /api/users/login/ HTTP/1.1" 200 0
+WARNING 2025-09-26 20:44:53,831 log 13564 16736 Bad Request: /api/users/login/
+WARNING 2025-09-26 20:44:53,833 basehttp 13564 16736 "POST /api/users/login/ HTTP/1.1" 400 89
+WARNING 2025-09-26 20:45:02,577 log 13564 16736 Bad Request: /api/users/login/
+WARNING 2025-09-26 20:45:02,578 basehttp 13564 16736 "POST /api/users/login/ HTTP/1.1" 400 89
+WARNING 2025-09-26 20:45:25,517 log 13564 16736 Bad Request: /api/users/login/
+WARNING 2025-09-26 20:45:25,518 basehttp 13564 16736 "POST /api/users/login/ HTTP/1.1" 400 89
+WARNING 2025-09-26 20:45:38,289 log 13564 16736 Bad Request: /api/users/login/
+WARNING 2025-09-26 20:45:38,290 basehttp 13564 16736 "POST /api/users/login/ HTTP/1.1" 400 89
+WARNING 2025-09-26 20:45:53,462 log 13564 16736 Bad Request: /api/users/login/
+WARNING 2025-09-26 20:45:53,464 basehttp 13564 16736 "POST /api/users/login/ HTTP/1.1" 400 89
+WARNING 2025-09-26 20:46:04,399 log 13564 16736 Bad Request: /api/users/login/
+WARNING 2025-09-26 20:46:04,400 basehttp 13564 16736 "POST /api/users/login/ HTTP/1.1" 400 89
+INFO 2025-09-26 20:47:13,151 basehttp 13564 16736 "OPTIONS /api/users/register/ HTTP/1.1" 200 0
+INFO 2025-09-26 20:47:16,225 basehttp 13564 16736 "POST /api/users/register/ HTTP/1.1" 201 790
+INFO 2025-09-26 20:47:16,249 basehttp 13564 16736 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:16,265 basehttp 13564 2216 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:16,265 basehttp 13564 16736 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:16,277 basehttp 13564 2216 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:16,301 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 20:47:16,310 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:47:16,614 log 13564 15912 Not Found: /logo192.png
+WARNING 2025-09-26 20:47:16,616 basehttp 13564 15912 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:47:29,146 basehttp 13564 2216 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:29,161 basehttp 13564 2216 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:35,873 basehttp 13564 2216 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:35,873 basehttp 13564 16736 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:35,885 basehttp 13564 2216 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:47:35,886 basehttp 13564 16736 "GET /api/products/categories/ HTTP/1.1" 200 52
+WARNING 2025-09-26 20:47:35,906 log 13564 6476 Not Found: /logo192.png
+INFO 2025-09-26 20:47:35,912 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:47:35,913 basehttp 13564 6476 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:47:35,921 basehttp 13564 11136 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 20:48:34,375 basehttp 13564 8964 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 20:48:34,483 basehttp 13564 8964 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:48:34,486 basehttp 13564 12160 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:48:34,508 basehttp 13564 12756 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:48:34,508 basehttp 13564 7764 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:48:34,514 basehttp 13564 17064 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:48:34,545 basehttp 13564 17064 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:48:34,583 basehttp 13564 6360 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:48:42,758 basehttp 13564 3228 "GET /admin/ HTTP/1.1" 200 93724
+WARNING 2025-09-26 20:48:42,815 basehttp 13564 3228 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:48:42,816 basehttp 13564 6604 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:48:42,816 basehttp 13564 8848 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:48:42,836 basehttp 13564 5084 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:49:47,699 basehttp 13564 13856 "GET /admin/ HTTP/1.1" 200 93724
+WARNING 2025-09-26 20:49:47,804 basehttp 13564 4348 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:49:47,804 basehttp 13564 16364 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:49:47,839 basehttp 13564 3060 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 20:49:48,224 basehttp 13564 7708 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 20:49:48,240 basehttp 13564 12236 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 20:49:48,250 basehttp 13564 13856 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 20:49:48,273 basehttp 13564 17300 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+WARNING 2025-09-26 20:49:48,888 basehttp 13564 12236 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:49:48,890 basehttp 13564 17300 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 20:49:48,916 basehttp 13564 8096 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 20:49:48,987 basehttp 13564 13100 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 20:49:49,035 basehttp 13564 17300 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 20:49:49,095 basehttp 13564 16596 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 20:49:49,109 basehttp 13564 7708 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 20:49:49,136 basehttp 13564 13856 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 20:49:51,283 basehttp 13564 13856 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 20:49:51,336 basehttp 13564 13856 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:49:51,394 basehttp 13564 7708 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:49:51,395 basehttp 13564 17300 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:49:51,395 basehttp 13564 13100 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:49:51,406 basehttp 13564 16596 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:49:51,429 basehttp 13564 16596 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:49:51,463 basehttp 13564 8096 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:50:37,555 autoreload 11632 15500 Watching for file changes with StatReloader
+INFO 2025-09-26 20:50:46,735 basehttp 13564 8040 "GET / HTTP/1.1" 200 6552
+INFO 2025-09-26 20:51:37,185 basehttp 11632 6476 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:51:37,187 log 11632 11768 Not Found: /favicon.ico
+WARNING 2025-09-26 20:51:37,189 log 11632 1160 Not Found: /logo192.png
+WARNING 2025-09-26 20:51:37,192 basehttp 11632 11768 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-26 20:51:37,194 basehttp 11632 1160 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:51:38,402 basehttp 11632 11768 "GET /admin/ HTTP/1.1" 200 93724
+WARNING 2025-09-26 20:51:38,456 basehttp 11632 16220 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:51:38,458 basehttp 11632 11768 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:51:38,469 basehttp 11632 8004 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:51:38,549 basehttp 11632 14140 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:51:43,348 log 11632 6632 Not Found: /placeholder-product-small.png
+WARNING 2025-09-26 20:51:43,349 basehttp 11632 6632 "GET /placeholder-product-small.png HTTP/1.1" 404 4221
+WARNING 2025-09-26 20:51:55,382 log 11632 4488 Not Found: /favicon.ico
+WARNING 2025-09-26 20:51:55,384 basehttp 11632 4488 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 20:51:55,581 basehttp 11632 11808 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-09-26 20:51:55,588 basehttp 11632 15736 "OPTIONS /api/products/ HTTP/1.1" 200 0
+WARNING 2025-09-26 20:51:55,635 log 11632 11808 Unauthorized: /api/products/
+WARNING 2025-09-26 20:51:55,638 basehttp 11632 11808 "GET /api/products/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:51:55,645 log 11632 11808 Unauthorized: /api/products/
+WARNING 2025-09-26 20:51:55,647 basehttp 11632 11808 "GET /api/products/ HTTP/1.1" 401 224
+WARNING 2025-09-26 20:51:56,410 log 11632 4816 Not Found: /logo192.png
+WARNING 2025-09-26 20:51:56,412 basehttp 11632 4816 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:52:04,280 basehttp 11632 11808 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:04,293 basehttp 11632 11808 "GET /api/products/ HTTP/1.1" 200 52
+WARNING 2025-09-26 20:52:04,634 log 11632 1140 Not Found: /logo192.png
+WARNING 2025-09-26 20:52:04,636 basehttp 11632 1140 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:52:11,068 basehttp 11632 11808 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:11,085 basehttp 11632 15736 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:11,085 basehttp 11632 11808 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:11,099 basehttp 11632 15736 "GET /api/products/categories/ HTTP/1.1" 200 52
+WARNING 2025-09-26 20:52:11,134 log 11632 3080 Not Found: /logo192.png
+WARNING 2025-09-26 20:52:11,136 basehttp 11632 3080 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:52:11,153 basehttp 11632 6476 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 20:52:11,164 basehttp 11632 6476 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 20:52:18,831 basehttp 11632 15736 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:18,844 basehttp 11632 15736 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:24,725 basehttp 11632 15736 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:24,725 basehttp 11632 11808 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:24,737 basehttp 11632 11808 "GET /api/products/categories/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:24,737 basehttp 11632 15736 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:52:24,753 basehttp 11632 6476 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 20:52:24,757 basehttp 11632 6476 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:52:25,077 log 11632 16372 Not Found: /logo192.png
+WARNING 2025-09-26 20:52:25,079 basehttp 11632 16372 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:52:32,979 basehttp 11632 14720 "GET /admin/products/category/ HTTP/1.1" 200 79928
+WARNING 2025-09-26 20:52:33,061 basehttp 11632 6940 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:52:33,064 basehttp 11632 14720 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:52:33,084 basehttp 11632 14812 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:52:33,108 basehttp 11632 3104 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:52:33,116 basehttp 11632 14572 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:52:33,139 basehttp 11632 14572 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:52:33,173 basehttp 11632 6460 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:52:38,574 basehttp 11632 8204 "GET /admin/products/category/add/ HTTP/1.1" 200 90013
+WARNING 2025-09-26 20:52:38,638 basehttp 11632 12584 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:52:38,674 basehttp 11632 8204 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:52:38,681 basehttp 11632 13272 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:52:38,706 basehttp 11632 1160 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:52:38,717 basehttp 11632 8040 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:52:38,748 basehttp 11632 8040 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:52:38,776 basehttp 11632 11588 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:52:48,069 basehttp 11632 14992 "POST /admin/products/category/add/ HTTP/1.1" 302 0
+INFO 2025-09-26 20:52:48,140 basehttp 11632 14992 "GET /admin/products/category/ HTTP/1.1" 200 86994
+WARNING 2025-09-26 20:52:48,196 basehttp 11632 14992 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:52:48,208 basehttp 11632 15708 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:52:48,210 basehttp 11632 13468 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:52:48,219 basehttp 11632 9468 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:52:48,227 basehttp 11632 15056 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:52:48,244 basehttp 11632 15056 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:52:48,268 basehttp 11632 5984 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:53:03,230 basehttp 11632 15736 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-26 20:53:03,252 basehttp 11632 15736 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-26 20:53:05,733 basehttp 11632 15736 "GET /api/products/?category=1 HTTP/1.1" 200 52
+INFO 2025-09-26 20:53:09,214 basehttp 11632 15736 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:53:09,239 basehttp 11632 15736 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 20:53:09,244 basehttp 11632 11808 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-26 20:53:09,303 log 11632 11296 Not Found: /logo192.png
+INFO 2025-09-26 20:53:09,312 basehttp 11632 6476 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 20:53:09,318 basehttp 11632 11296 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 20:53:09,327 basehttp 11632 11808 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-26 20:53:09,336 basehttp 11632 12236 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 20:53:26,770 basehttp 11632 7196 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 20:53:26,841 basehttp 11632 7196 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:53:26,881 basehttp 11632 15836 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:53:26,896 basehttp 11632 1532 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:53:26,903 basehttp 11632 11424 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 20:53:26,911 basehttp 11632 3916 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:53:26,937 basehttp 11632 3916 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:53:26,977 basehttp 11632 13824 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:53:29,907 basehttp 11632 1768 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 20:53:29,967 basehttp 11632 2980 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:53:29,986 basehttp 11632 1768 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 20:53:29,994 basehttp 11632 8548 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:53:30,012 basehttp 11632 5888 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 20:53:30,019 basehttp 11632 6604 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 20:53:30,045 basehttp 11632 6604 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 20:53:30,072 basehttp 11632 10600 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 20:53:30,112 basehttp 11632 956 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 21:11:03,369 basehttp 11632 17696 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 21:11:03,449 basehttp 11632 14032 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 21:11:03,462 basehttp 11632 13404 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 21:11:03,476 basehttp 11632 12384 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 21:11:03,489 basehttp 11632 2796 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 21:11:03,697 basehttp 11632 17696 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 21:11:03,703 basehttp 11632 17696 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+WARNING 2025-09-26 21:11:03,718 basehttp 11632 17696 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 21:11:03,744 basehttp 11632 13948 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 21:11:03,769 basehttp 11632 7300 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 21:11:03,777 basehttp 11632 17552 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 21:11:03,780 basehttp 11632 13116 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 21:11:03,791 basehttp 11632 17552 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 21:11:03,791 basehttp 11632 15236 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 21:11:03,801 basehttp 11632 2796 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 21:11:03,809 basehttp 11632 2796 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 21:11:03,816 basehttp 11632 2796 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 21:11:03,829 basehttp 11632 13948 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 21:11:03,846 basehttp 11632 7300 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 21:11:03,847 basehttp 11632 13116 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 21:11:03,849 basehttp 11632 15236 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 21:11:03,851 basehttp 11632 13948 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+WARNING 2025-09-26 21:11:03,864 basehttp 11632 15236 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 21:11:03,866 basehttp 11632 13116 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 21:11:03,866 basehttp 11632 13948 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+WARNING 2025-09-26 21:11:03,885 basehttp 11632 13948 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 21:11:03,886 basehttp 11632 13116 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 21:11:03,887 basehttp 11632 7300 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 21:11:03,897 basehttp 11632 13116 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 21:11:03,967 basehttp 11632 7300 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 21:11:03,983 basehttp 11632 7300 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 21:11:03,994 basehttp 11632 17552 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 21:11:03,998 basehttp 11632 7300 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 21:11:04,016 basehttp 11632 7300 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+WARNING 2025-09-26 21:11:04,028 basehttp 11632 7300 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 21:11:04,029 basehttp 11632 17552 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 21:11:04,337 basehttp 11632 17552 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:22:21,906 basehttp 11632 17436 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:22:21,928 basehttp 11632 20552 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:22:21,937 basehttp 11632 15872 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:22:21,938 basehttp 11632 20208 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 22:22:21,939 basehttp 11632 15208 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 22:22:21,943 basehttp 11632 17436 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+WARNING 2025-09-26 22:22:21,948 basehttp 11632 20132 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:22:21,950 basehttp 11632 19592 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+WARNING 2025-09-26 22:22:21,956 basehttp 11632 19084 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:22:21,956 basehttp 11632 17436 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 22:22:21,959 basehttp 11632 20208 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:22:21,960 basehttp 11632 19592 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 22:22:21,963 basehttp 11632 19592 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 22:22:21,963 basehttp 11632 20208 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 22:22:21,968 basehttp 11632 20208 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 22:22:21,969 basehttp 11632 9888 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 22:22:21,973 basehttp 11632 20208 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:22:21,974 basehttp 11632 9888 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 22:22:21,985 basehttp 11632 17436 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 22:22:21,992 basehttp 11632 18096 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 22:22:21,993 basehttp 11632 17436 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 22:22:22,013 basehttp 11632 15208 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 22:22:22,028 basehttp 11632 17436 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 22:22:22,036 basehttp 11632 9888 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 22:22:22,071 basehttp 11632 19592 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+WARNING 2025-09-26 22:22:22,151 basehttp 11632 19592 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:22:22,154 basehttp 11632 9888 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+WARNING 2025-09-26 22:22:22,169 basehttp 11632 9888 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:22:22,179 basehttp 11632 17436 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+WARNING 2025-09-26 22:22:22,188 basehttp 11632 17436 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:22:22,195 basehttp 11632 18796 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 22:22:22,195 basehttp 11632 20208 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 22:22:22,195 basehttp 11632 21168 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 22:22:22,207 basehttp 11632 8272 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 22:22:22,214 basehttp 11632 18096 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 22:22:22,219 basehttp 11632 15208 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 22:22:22,439 basehttp 11632 15208 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:22:31,212 basehttp 11632 15208 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:22:31,237 basehttp 11632 20208 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:22:31,237 basehttp 11632 18796 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:22:31,237 basehttp 11632 21168 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 22:22:31,239 basehttp 11632 15208 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 22:22:31,243 basehttp 11632 8272 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+WARNING 2025-09-26 22:22:31,250 basehttp 11632 21168 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:22:31,250 basehttp 11632 19864 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 22:22:31,252 basehttp 11632 8272 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+WARNING 2025-09-26 22:22:31,259 basehttp 11632 19864 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:22:31,259 basehttp 11632 16724 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 22:22:31,261 basehttp 11632 8272 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 22:22:31,262 basehttp 11632 19604 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:22:31,265 basehttp 11632 16724 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 22:22:31,266 basehttp 11632 19604 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 22:22:31,267 basehttp 11632 17888 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 22:22:31,267 basehttp 11632 8272 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 22:22:31,268 basehttp 11632 15208 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 22:22:31,271 basehttp 11632 17888 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:22:31,272 basehttp 11632 8272 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 22:22:31,274 basehttp 11632 16724 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 22:22:31,276 basehttp 11632 8272 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 22:22:31,276 basehttp 11632 17888 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 22:22:31,279 basehttp 11632 18096 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 22:22:31,280 basehttp 11632 17888 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 22:22:31,281 basehttp 11632 8272 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 22:22:31,297 basehttp 11632 8272 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 22:22:31,298 basehttp 11632 17888 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 22:22:31,300 basehttp 11632 8272 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 22:22:31,429 basehttp 11632 8272 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 22:22:31,430 basehttp 11632 17888 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+WARNING 2025-09-26 22:22:31,444 basehttp 11632 17888 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:22:31,445 basehttp 11632 8272 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 22:22:31,449 basehttp 11632 18096 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+WARNING 2025-09-26 22:22:31,459 basehttp 11632 18096 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:22:31,470 basehttp 11632 8272 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:22:31,653 basehttp 11632 16724 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:25:06,509 basehttp 11632 16724 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:25:06,527 basehttp 11632 9456 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:25:06,528 basehttp 11632 19872 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 22:25:06,528 basehttp 11632 18632 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 22:25:06,529 basehttp 11632 16724 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 22:25:06,529 basehttp 11632 19604 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+WARNING 2025-09-26 22:25:06,541 basehttp 11632 18632 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:25:06,542 basehttp 11632 19872 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:25:06,544 basehttp 11632 19604 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+WARNING 2025-09-26 22:25:06,548 basehttp 11632 19316 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:25:06,550 basehttp 11632 21036 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 22:25:06,552 basehttp 11632 19604 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 22:25:06,553 basehttp 11632 8848 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:25:06,554 basehttp 11632 21036 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 22:25:06,556 basehttp 11632 19604 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 22:25:06,557 basehttp 11632 19324 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 22:25:06,558 basehttp 11632 8848 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 22:25:06,559 basehttp 11632 19604 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:25:06,560 basehttp 11632 19324 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 22:25:06,561 basehttp 11632 16724 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 22:25:06,563 basehttp 11632 16724 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 22:25:06,563 basehttp 11632 21036 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 22:25:06,565 basehttp 11632 19324 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 22:25:06,567 basehttp 11632 15208 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 22:25:06,567 basehttp 11632 16724 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 22:25:06,688 basehttp 11632 16724 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 22:25:06,695 basehttp 11632 15208 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+WARNING 2025-09-26 22:25:06,695 basehttp 11632 16724 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:25:06,697 basehttp 11632 19324 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 22:25:06,699 basehttp 11632 19324 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+WARNING 2025-09-26 22:25:06,707 basehttp 11632 19324 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:25:06,708 basehttp 11632 15208 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 22:25:06,710 basehttp 11632 21036 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+WARNING 2025-09-26 22:25:06,724 basehttp 11632 21036 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:25:06,725 basehttp 11632 15208 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 22:25:06,728 basehttp 11632 19604 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 22:25:07,811 basehttp 11632 19604 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:32:47,585 autoreload 21264 19208 Watching for file changes with StatReloader
+INFO 2025-09-26 22:32:56,461 basehttp 11632 20884 "GET / HTTP/1.1" 200 6552
+WARNING 2025-09-26 22:32:56,556 log 11632 20884 Not Found: /favicon.ico
+WARNING 2025-09-26 22:32:56,556 basehttp 11632 20884 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 22:32:57,794 basehttp 11632 20884 "GET /admin/ HTTP/1.1" 200 93724
+WARNING 2025-09-26 22:32:57,812 basehttp 11632 20884 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:32:57,812 basehttp 11632 17116 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:32:57,816 basehttp 11632 11972 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:32:57,844 basehttp 11632 13276 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:33:01,235 basehttp 11632 1176 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 22:33:01,257 basehttp 11632 1176 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:33:01,265 basehttp 11632 12240 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:33:01,266 basehttp 11632 15988 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:33:01,266 basehttp 11632 12508 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:33:01,270 basehttp 11632 4256 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:33:01,275 basehttp 11632 4256 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:33:01,284 basehttp 11632 12348 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:33:04,031 basehttp 11632 19196 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:33:04,049 basehttp 11632 19196 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:33:04,049 basehttp 11632 13084 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:33:04,054 basehttp 11632 12004 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:33:04,057 basehttp 11632 8048 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:33:04,061 basehttp 11632 7620 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:33:04,068 basehttp 11632 7620 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:33:04,075 basehttp 11632 3092 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:33:04,085 basehttp 11632 6276 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:36:39,065 autoreload 11632 15500 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\products\views.py changed, reloading.
+INFO 2025-09-26 22:36:39,077 autoreload 21264 19208 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\products\views.py changed, reloading.
+INFO 2025-09-26 22:36:40,017 autoreload 21388 18264 Watching for file changes with StatReloader
+INFO 2025-09-26 22:36:40,017 autoreload 2444 4664 Watching for file changes with StatReloader
+INFO 2025-09-26 22:36:56,802 autoreload 21388 18264 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\products\urls.py changed, reloading.
+INFO 2025-09-26 22:36:56,815 autoreload 2444 4664 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\products\urls.py changed, reloading.
+INFO 2025-09-26 22:36:57,709 autoreload 9344 8228 Watching for file changes with StatReloader
+INFO 2025-09-26 22:36:57,718 autoreload 7500 17068 Watching for file changes with StatReloader
+INFO 2025-09-26 22:39:25,360 basehttp 9344 17652 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:39:25,380 basehttp 9344 18208 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:39:25,393 basehttp 9344 1976 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:39:25,400 basehttp 9344 6172 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:39:25,408 basehttp 9344 21352 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:39:25,498 basehttp 9344 6744 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 22:39:25,501 basehttp 9344 6744 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 22:39:25,502 basehttp 9344 17652 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+WARNING 2025-09-26 22:39:25,506 basehttp 9344 6744 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:39:25,509 basehttp 9344 17652 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 22:39:25,510 basehttp 9344 17420 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 22:39:25,511 basehttp 9344 11932 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 22:39:25,514 basehttp 9344 17420 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 22:39:25,514 basehttp 9344 17652 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 22:39:25,515 basehttp 9344 11932 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 22:39:25,518 basehttp 9344 880 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 22:39:25,518 basehttp 9344 17420 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 22:39:25,519 basehttp 9344 11932 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:39:25,521 basehttp 9344 880 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 22:39:25,523 basehttp 9344 11932 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 22:39:25,527 basehttp 9344 880 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 22:39:25,528 basehttp 9344 17652 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 22:39:25,528 basehttp 9344 21352 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 22:39:25,529 basehttp 9344 11932 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 22:39:25,534 basehttp 9344 11932 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 22:39:25,537 basehttp 9344 11932 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 22:39:25,539 basehttp 9344 21352 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 22:39:25,540 basehttp 9344 11932 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 22:39:25,541 basehttp 9344 20384 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 22:39:25,544 basehttp 9344 20384 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 22:39:25,561 basehttp 9344 20384 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 22:39:25,562 basehttp 9344 11932 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+WARNING 2025-09-26 22:39:25,569 basehttp 9344 11932 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:39:25,570 basehttp 9344 20384 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+WARNING 2025-09-26 22:39:25,580 basehttp 9344 20384 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:39:25,596 basehttp 9344 21352 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:39:25,909 basehttp 9344 17652 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:43:27,495 basehttp 9344 17652 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:43:27,517 basehttp 9344 9424 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:43:27,521 basehttp 9344 20676 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:43:27,522 basehttp 9344 11228 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+WARNING 2025-09-26 22:43:27,528 basehttp 9344 11228 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:43:27,528 basehttp 9344 9136 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 22:43:27,529 basehttp 9344 17652 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 22:43:27,531 basehttp 9344 17420 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 22:43:27,533 basehttp 9344 17652 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+WARNING 2025-09-26 22:43:27,538 basehttp 9344 1752 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:43:27,540 basehttp 9344 17420 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 22:43:27,540 basehttp 9344 20104 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:43:27,543 basehttp 9344 17652 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 22:43:27,544 basehttp 9344 17420 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 22:43:27,545 basehttp 9344 18352 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 22:43:27,546 basehttp 9344 17652 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 22:43:27,548 basehttp 9344 20104 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 22:43:27,550 basehttp 9344 18352 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:43:27,550 basehttp 9344 17652 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 22:43:27,551 basehttp 9344 9136 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 22:43:27,552 basehttp 9344 17420 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 22:43:27,555 basehttp 9344 17652 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 22:43:27,556 basehttp 9344 9136 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 22:43:27,558 basehttp 9344 880 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 22:43:27,559 basehttp 9344 9136 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 22:43:27,561 basehttp 9344 17652 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 22:43:27,577 basehttp 9344 17652 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 22:43:27,578 basehttp 9344 9136 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 22:43:27,580 basehttp 9344 17652 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 22:43:27,726 basehttp 9344 9136 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 22:43:27,727 basehttp 9344 17652 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-09-26 22:43:27,735 basehttp 9344 17652 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:43:27,737 basehttp 9344 9136 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 22:43:27,741 basehttp 9344 880 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+WARNING 2025-09-26 22:43:27,751 basehttp 9344 880 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:43:27,766 basehttp 9344 9136 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:43:28,261 basehttp 9344 17420 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 22:43:43,136 basehttp 9344 17420 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:43:43,158 basehttp 9344 17420 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:43:43,163 basehttp 9344 18352 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:43:43,167 basehttp 9344 20104 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:43:43,167 basehttp 9344 13100 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:43:43,171 basehttp 9344 20120 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:43:43,177 basehttp 9344 20120 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:43:43,184 basehttp 9344 856 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:43:43,195 basehttp 9344 11424 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:44:44,676 autoreload 7500 17068 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 22:44:44,688 autoreload 9344 8228 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 22:44:45,569 autoreload 12448 12872 Watching for file changes with StatReloader
+INFO 2025-09-26 22:45:06,922 autoreload 840 20040 Watching for file changes with StatReloader
+INFO 2025-09-26 22:45:13,572 basehttp 12448 9660 "GET / HTTP/1.1" 200 6552
+WARNING 2025-09-26 22:45:13,679 log 12448 9660 Not Found: /favicon.ico
+WARNING 2025-09-26 22:45:13,680 basehttp 12448 9660 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 22:45:14,971 basehttp 12448 9660 "GET /admin/ HTTP/1.1" 200 93724
+WARNING 2025-09-26 22:45:14,996 basehttp 12448 20576 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:45:14,996 basehttp 12448 9660 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:45:14,996 basehttp 12448 84 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:45:15,022 basehttp 12448 18968 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:45:25,457 log 12448 17192 Not Found: /favicon.ico
+WARNING 2025-09-26 22:45:25,457 basehttp 12448 17192 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 22:45:25,764 basehttp 12448 17072 "GET /api/products/ HTTP/1.1" 200 52
+INFO 2025-09-26 22:45:25,770 basehttp 12448 17072 "GET /api/products/ HTTP/1.1" 200 52
+WARNING 2025-09-26 22:45:25,775 log 12448 14528 Not Found: /logo192.png
+INFO 2025-09-26 22:45:25,777 basehttp 12448 20180 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-26 22:45:25,778 basehttp 12448 14528 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 22:45:25,781 basehttp 12448 17072 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-26 22:45:25,786 log 12448 20176 Not Found: /logo192.png
+WARNING 2025-09-26 22:45:25,787 basehttp 12448 20176 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 22:45:25,820 basehttp 12448 19684 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 22:45:25,823 basehttp 12448 19684 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 22:49:28,793 log 12448 19504 Not Found: /placeholder-product-small.png
+WARNING 2025-09-26 22:49:28,793 basehttp 12448 19504 "GET /placeholder-product-small.png HTTP/1.1" 404 4221
+INFO 2025-09-26 22:50:48,807 basehttp 12448 17460 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 22:50:48,824 basehttp 12448 17460 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:50:48,831 basehttp 12448 16668 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:50:48,840 basehttp 12448 20220 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:50:48,844 basehttp 12448 20332 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:50:48,848 basehttp 12448 19160 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:50:48,861 basehttp 12448 19160 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:50:48,875 basehttp 12448 18700 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:50:50,845 basehttp 12448 8232 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 22:50:50,865 basehttp 12448 8232 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:50:50,869 basehttp 12448 7864 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:50:50,869 basehttp 12448 8040 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:50:50,873 basehttp 12448 9000 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:50:50,875 basehttp 12448 13832 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:50:50,882 basehttp 12448 13832 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:50:50,890 basehttp 12448 17912 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:50:50,900 basehttp 12448 13948 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:51:59,523 basehttp 12448 19540 "GET /admin/users/notification/ HTTP/1.1" 200 80938
+WARNING 2025-09-26 22:51:59,550 basehttp 12448 2944 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:51:59,550 basehttp 12448 19540 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:51:59,551 basehttp 12448 19668 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:51:59,553 basehttp 12448 21108 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:52:09,506 basehttp 12448 21108 "GET /admin/users/user/ HTTP/1.1" 200 89574
+WARNING 2025-09-26 22:52:09,529 basehttp 12448 21108 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:09,529 basehttp 12448 19264 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:52:09,534 basehttp 12448 21072 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:52:09,538 basehttp 12448 20484 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:52:09,545 basehttp 12448 20484 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:52:09,556 basehttp 12448 16100 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:52:11,183 basehttp 12448 7116 "GET /admin/users/user/ HTTP/1.1" 200 89574
+WARNING 2025-09-26 22:52:11,204 basehttp 12448 19752 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:11,204 basehttp 12448 7116 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:52:11,208 basehttp 12448 17192 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:52:11,210 basehttp 12448 14528 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:52:11,217 basehttp 12448 14528 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:52:11,224 basehttp 12448 20176 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:52:19,600 basehttp 12448 14396 "GET /admin/products/category/ HTTP/1.1" 200 86434
+WARNING 2025-09-26 22:52:19,619 basehttp 12448 14396 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:52:19,624 basehttp 12448 17332 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:19,630 basehttp 12448 19056 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:19,634 basehttp 12448 18136 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:52:19,637 basehttp 12448 15064 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:52:19,644 basehttp 12448 15064 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:52:19,653 basehttp 12448 9856 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:52:21,534 basehttp 12448 8376 "GET /admin/products/banner/ HTTP/1.1" 200 80302
+WARNING 2025-09-26 22:52:21,553 basehttp 12448 5644 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:21,558 basehttp 12448 20468 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:52:21,564 basehttp 12448 8376 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 22:52:21,566 basehttp 12448 16840 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 22:52:21,573 basehttp 12448 16840 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 22:52:21,583 basehttp 12448 2768 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 22:52:23,834 basehttp 12448 17896 "GET /admin/users/notification/ HTTP/1.1" 200 80938
+WARNING 2025-09-26 22:52:23,854 basehttp 12448 18528 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:23,854 basehttp 12448 17896 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:52:23,854 basehttp 12448 9456 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:52:23,857 basehttp 12448 21332 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:52:26,512 basehttp 12448 21332 "GET /admin/users/notification/add/ HTTP/1.1" 200 85021
+WARNING 2025-09-26 22:52:26,529 basehttp 12448 21332 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:26,535 basehttp 12448 17900 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:52:26,543 basehttp 12448 16776 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 22:52:26,544 basehttp 12448 17048 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 22:52:35,797 basehttp 12448 17048 "GET /admin/users/notification/ HTTP/1.1" 200 80938
+WARNING 2025-09-26 22:52:35,821 basehttp 12448 17048 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 22:52:35,822 basehttp 12448 8280 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 22:52:35,822 basehttp 12448 7772 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 23:06:59,509 basehttp 12448 18944 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 23:06:59,525 basehttp 12448 18944 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 23:06:59,533 basehttp 12448 12280 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 23:06:59,534 basehttp 12448 9300 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 23:06:59,539 basehttp 12448 15056 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 23:06:59,541 basehttp 12448 21228 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 23:06:59,557 basehttp 12448 21228 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 23:06:59,572 basehttp 12448 14160 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 23:07:01,232 basehttp 12448 17100 "GET /admin/products/product/ HTTP/1.1" 200 81480
+WARNING 2025-09-26 23:07:01,255 basehttp 12448 21076 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 23:07:01,263 basehttp 12448 21312 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 23:07:01,271 basehttp 12448 12348 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 23:07:01,278 basehttp 12448 17960 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 23:07:01,378 basehttp 12448 17100 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 23:07:01,380 basehttp 12448 17100 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 23:07:01,381 basehttp 12448 19268 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+WARNING 2025-09-26 23:07:01,386 basehttp 12448 17100 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 23:07:01,389 basehttp 12448 14416 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 23:07:01,390 basehttp 12448 19252 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 23:07:01,390 basehttp 12448 19268 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 23:07:01,394 basehttp 12448 19252 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 23:07:01,394 basehttp 12448 14452 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 23:07:01,394 basehttp 12448 14416 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 23:07:01,395 basehttp 12448 19268 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 23:07:01,398 basehttp 12448 19268 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:07:01,399 basehttp 12448 14416 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 23:07:01,400 basehttp 12448 17960 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 23:07:01,402 basehttp 12448 14452 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 23:07:01,408 basehttp 12448 8048 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 23:07:01,454 basehttp 12448 8048 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 23:07:01,487 basehttp 12448 8048 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+WARNING 2025-09-26 23:07:01,488 basehttp 12448 14452 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 23:07:01,490 basehttp 12448 8048 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 23:07:01,490 basehttp 12448 17960 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+WARNING 2025-09-26 23:07:01,497 basehttp 12448 8048 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 23:07:01,497 basehttp 12448 17960 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-09-26 23:07:01,501 basehttp 12448 17960 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 23:07:01,992 basehttp 12448 17960 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:07:02,891 basehttp 12448 17960 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 23:07:02,906 basehttp 12448 17960 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 23:07:02,916 basehttp 12448 19268 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 23:07:02,916 basehttp 12448 14416 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 23:07:02,922 basehttp 12448 6848 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 23:07:02,925 basehttp 12448 19252 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 23:07:02,932 basehttp 12448 19252 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 23:07:02,940 basehttp 12448 11520 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 23:07:02,950 basehttp 12448 8396 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+WARNING 2025-09-26 23:07:08,648 log 12448 19156 Not Found: /placeholder-product-small.png
+WARNING 2025-09-26 23:07:08,650 basehttp 12448 19156 "GET /placeholder-product-small.png HTTP/1.1" 404 4221
+INFO 2025-09-26 23:11:41,319 basehttp 12448 18672 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+WARNING 2025-09-26 23:11:41,345 basehttp 12448 14828 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+INFO 2025-09-26 23:11:41,345 basehttp 12448 19804 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 23:11:41,346 basehttp 12448 18732 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 23:11:41,346 basehttp 12448 18672 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+WARNING 2025-09-26 23:11:41,357 basehttp 12448 19804 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 23:11:41,358 basehttp 12448 10612 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 23:11:41,361 basehttp 12448 20856 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 23:11:41,363 basehttp 12448 18672 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 23:11:41,367 basehttp 12448 14456 "GET /static/product_tabs.js HTTP/1.1" 404 1972
+INFO 2025-09-26 23:11:41,367 basehttp 12448 18524 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 23:11:41,370 basehttp 12448 20856 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 23:11:41,370 basehttp 12448 18672 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 23:11:41,374 basehttp 12448 18524 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 23:11:41,375 basehttp 12448 17716 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 23:11:41,375 basehttp 12448 20856 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 23:11:41,376 basehttp 12448 18672 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 23:11:41,378 basehttp 12448 18732 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 23:11:41,379 basehttp 12448 20856 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:11:41,380 basehttp 12448 17716 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 23:11:41,381 basehttp 12448 18524 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 23:11:41,385 basehttp 12448 18524 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 23:11:41,385 basehttp 12448 17716 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 23:11:41,387 basehttp 12448 12604 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 23:11:41,390 basehttp 12448 12604 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 23:11:41,391 basehttp 12448 17716 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 23:11:41,409 basehttp 12448 17716 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 23:11:41,411 basehttp 12448 12604 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 23:11:41,412 basehttp 12448 17716 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 23:11:41,575 basehttp 12448 12604 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 23:11:41,575 basehttp 12448 17716 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-09-26 23:11:41,586 basehttp 12448 17716 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+INFO 2025-09-26 23:11:41,588 basehttp 12448 12604 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 23:11:41,594 basehttp 12448 12604 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+WARNING 2025-09-26 23:11:41,609 basehttp 12448 12604 "GET /static/custom_admin.js HTTP/1.1" 404 1972
+WARNING 2025-09-26 23:11:41,627 basehttp 12448 18524 "GET /static/manual_product_tabs.js HTTP/1.1" 404 1993
+INFO 2025-09-26 23:11:41,893 basehttp 12448 20856 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+WARNING 2025-09-26 23:12:01,055 basehttp 12448 20856 "GET /static/custom_admin.css HTTP/1.1" 404 1975
+WARNING 2025-09-26 23:12:01,081 log 12448 18732 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-26 23:12:01,082 basehttp 12448 18732 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4278
+INFO 2025-09-26 23:12:01,162 basehttp 12448 18672 "GET /static/vendor/adminlte/js/adminlte.min.js.map HTTP/1.1" 200 129651
+INFO 2025-09-26 23:12:01,162 basehttp 12448 18732 "GET /static/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 187646
+INFO 2025-09-26 23:12:01,204 basehttp 12448 18732 "GET /static/vendor/adminlte/css/adminlte.min.css.map HTTP/1.1" 200 3783134
+INFO 2025-09-26 23:15:10,457 autoreload 840 20040 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 23:15:10,776 autoreload 12448 12872 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 23:15:11,655 autoreload 6608 17776 Watching for file changes with StatReloader
+INFO 2025-09-26 23:15:11,886 autoreload 20972 9120 Watching for file changes with StatReloader
+INFO 2025-09-26 23:15:45,819 basehttp 6608 20308 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+INFO 2025-09-26 23:15:45,986 basehttp 6608 2580 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 23:15:45,988 basehttp 6608 2580 "GET /static/custom_admin.css HTTP/1.1" 200 18324
+INFO 2025-09-26 23:15:45,990 basehttp 6608 2580 "GET /static/manual_product_tabs.js HTTP/1.1" 200 8121
+INFO 2025-09-26 23:15:45,996 basehttp 6608 2580 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 23:15:45,999 basehttp 6608 12884 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 23:15:46,002 basehttp 6608 12884 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 23:15:46,004 basehttp 6608 12884 "GET /static/product_tabs.js HTTP/1.1" 200 8233
+INFO 2025-09-26 23:15:46,004 basehttp 6608 2580 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 23:15:46,007 basehttp 6608 2580 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 23:15:46,011 basehttp 6608 12884 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 23:15:46,013 basehttp 6608 2580 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 23:15:46,015 basehttp 6608 20308 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 23:15:46,015 basehttp 6608 6604 "GET /static/custom_admin.js HTTP/1.1" 200 7436
+INFO 2025-09-26 23:15:46,017 basehttp 6608 12884 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 23:15:46,017 basehttp 6608 13692 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 23:15:46,019 basehttp 6608 2580 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 23:15:46,025 basehttp 6608 20308 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+WARNING 2025-09-26 23:15:46,028 log 6608 12884 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2025-09-26 23:15:46,028 basehttp 6608 13692 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+WARNING 2025-09-26 23:15:46,029 basehttp 6608 12884 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4278
+INFO 2025-09-26 23:15:46,029 basehttp 6608 2580 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 23:15:46,034 basehttp 6608 2580 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 23:15:46,034 basehttp 6608 6604 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 23:15:46,037 basehttp 6608 12884 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 23:15:46,040 basehttp 6608 2580 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 23:15:46,041 basehttp 6608 10340 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 23:15:46,061 basehttp 6608 10340 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 23:15:46,081 basehttp 6608 10340 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 23:15:46,082 basehttp 6608 2580 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 23:15:46,085 basehttp 6608 2580 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 23:15:46,087 basehttp 6608 2580 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 23:15:46,090 basehttp 6608 2580 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 23:15:46,093 basehttp 6608 2580 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 23:15:46,097 basehttp 6608 2580 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 23:15:46,823 basehttp 6608 2580 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+WARNING 2025-09-26 23:16:18,029 log 6608 2580 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-26 23:16:18,030 basehttp 6608 2580 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4278
+INFO 2025-09-26 23:22:37,375 basehttp 6608 21436 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+INFO 2025-09-26 23:22:37,432 basehttp 6608 21436 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 23:22:37,444 basehttp 6608 5776 "GET /static/custom_admin.js HTTP/1.1" 200 21064
+INFO 2025-09-26 23:22:37,444 basehttp 6608 19192 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 23:22:37,445 basehttp 6608 18376 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 23:22:37,446 basehttp 6608 21436 "GET /static/custom_admin.css HTTP/1.1" 200 18324
+INFO 2025-09-26 23:22:37,450 basehttp 6608 17844 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 23:22:37,473 basehttp 6608 5776 "GET /static/manual_product_tabs.js HTTP/1.1" 200 8121
+INFO 2025-09-26 23:22:37,474 basehttp 6608 18376 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 23:22:37,476 basehttp 6608 17844 "GET /static/product_tabs.js HTTP/1.1" 200 8233
+INFO 2025-09-26 23:22:37,494 basehttp 6608 5776 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 23:22:37,495 basehttp 6608 18376 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 23:22:37,499 basehttp 6608 17844 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 23:22:37,502 basehttp 6608 19192 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 23:22:37,505 basehttp 6608 21436 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 23:22:37,517 basehttp 6608 5776 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 23:22:37,517 basehttp 6608 18376 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 23:22:37,522 basehttp 6608 17844 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+WARNING 2025-09-26 23:22:37,537 log 6608 19192 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-26 23:22:37,552 basehttp 6608 19192 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4278
+INFO 2025-09-26 23:22:37,556 basehttp 6608 21436 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 23:22:37,557 basehttp 6608 9956 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 23:22:37,561 basehttp 6608 17844 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:22:37,564 basehttp 6608 5776 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 23:22:37,576 basehttp 6608 5776 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 23:22:37,613 basehttp 6608 5776 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 23:22:37,636 basehttp 6608 5776 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 23:22:37,651 basehttp 6608 5776 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 23:22:37,657 basehttp 6608 5776 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 23:22:37,658 basehttp 6608 9956 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 23:22:37,664 basehttp 6608 9956 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 23:22:37,669 basehttp 6608 9956 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 23:22:37,672 basehttp 6608 9956 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 23:22:37,677 basehttp 6608 9956 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 23:22:37,683 basehttp 6608 9956 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 23:22:38,860 basehttp 6608 9956 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:22:45,399 basehttp 6608 9956 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+INFO 2025-09-26 23:22:45,460 basehttp 6608 18376 "GET /static/manual_product_tabs.js HTTP/1.1" 200 8121
+INFO 2025-09-26 23:22:45,460 basehttp 6608 19192 "GET /static/custom_admin.js HTTP/1.1" 200 21064
+INFO 2025-09-26 23:22:45,461 basehttp 6608 17844 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 23:22:45,475 basehttp 6608 9956 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 23:22:45,481 basehttp 6608 19192 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 23:22:45,488 basehttp 6608 17844 "GET /static/custom_admin.css HTTP/1.1" 200 18324
+INFO 2025-09-26 23:22:45,489 basehttp 6608 21436 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 23:22:45,498 basehttp 6608 19192 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 23:22:45,509 basehttp 6608 21436 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 23:22:45,511 basehttp 6608 17844 "GET /static/product_tabs.js HTTP/1.1" 200 8233
+INFO 2025-09-26 23:22:45,520 basehttp 6608 18376 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 23:22:45,521 basehttp 6608 19192 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 23:22:45,529 basehttp 6608 21436 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 23:22:45,533 basehttp 6608 17844 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 23:22:45,537 basehttp 6608 19192 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 23:22:45,538 basehttp 6608 18376 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 23:22:45,546 basehttp 6608 17844 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:22:45,551 basehttp 6608 9956 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 23:22:45,555 basehttp 6608 18376 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 23:22:45,565 basehttp 6608 17844 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 23:22:45,572 basehttp 6608 21436 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 23:22:45,576 basehttp 6608 18376 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 23:22:45,579 basehttp 6608 17844 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 23:22:45,597 basehttp 6608 17844 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 23:22:45,599 basehttp 6608 18376 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 23:22:45,600 basehttp 6608 5776 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 23:22:45,612 basehttp 6608 5776 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 23:22:45,657 basehttp 6608 5776 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 23:22:45,678 basehttp 6608 5776 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 23:22:45,684 basehttp 6608 5776 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 23:22:45,690 basehttp 6608 5776 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 23:22:45,697 basehttp 6608 5776 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 23:22:46,416 basehttp 6608 5776 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:22:49,589 basehttp 6608 5776 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+INFO 2025-09-26 23:22:49,618 basehttp 6608 5776 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 23:23:13,103 log 6608 5776 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-09-26 23:23:13,104 basehttp 6608 5776 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 4278
+INFO 2025-09-26 23:25:13,030 basehttp 6608 5776 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+INFO 2025-09-26 23:25:13,067 basehttp 6608 19192 "GET /static/manual_product_tabs.js HTTP/1.1" 200 8121
+INFO 2025-09-26 23:25:13,068 basehttp 6608 9956 "GET /static/custom_admin.js HTTP/1.1" 200 13327
+INFO 2025-09-26 23:25:13,068 basehttp 6608 5776 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 23:25:13,071 basehttp 6608 21436 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 23:25:13,085 basehttp 6608 5776 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 23:25:13,087 basehttp 6608 9956 "GET /static/custom_admin.css HTTP/1.1" 200 18324
+INFO 2025-09-26 23:25:13,093 basehttp 6608 19192 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 23:25:13,094 basehttp 6608 17844 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 23:25:13,099 basehttp 6608 5776 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 23:25:13,100 basehttp 6608 9956 "GET /static/product_tabs.js HTTP/1.1" 200 8233
+INFO 2025-09-26 23:25:13,104 basehttp 6608 19192 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 23:25:13,107 basehttp 6608 17844 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 23:25:13,113 basehttp 6608 5776 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 23:25:13,117 basehttp 6608 9956 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 23:25:13,119 basehttp 6608 19192 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 23:25:13,121 basehttp 6608 17844 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 23:25:13,123 basehttp 6608 21436 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 23:25:13,130 basehttp 6608 19192 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:25:13,130 basehttp 6608 9956 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 23:25:13,134 basehttp 6608 5776 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 23:25:13,140 basehttp 6608 18376 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 23:25:13,233 basehttp 6608 18376 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 23:25:13,313 basehttp 6608 5776 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 23:25:13,314 basehttp 6608 18376 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 23:25:13,332 basehttp 6608 18376 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 23:25:13,332 basehttp 6608 5776 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 23:25:13,345 basehttp 6608 5776 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 23:25:13,347 basehttp 6608 18376 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 23:25:13,359 basehttp 6608 18376 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 23:25:13,367 basehttp 6608 18376 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 23:25:13,375 basehttp 6608 18376 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 23:25:13,386 basehttp 6608 18376 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 23:25:14,085 basehttp 6608 18376 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+WARNING 2025-09-26 23:25:30,328 log 6608 18376 Unauthorized: /api/products/upload-image/
+WARNING 2025-09-26 23:25:30,332 basehttp 6608 18376 "POST /api/products/upload-image/ HTTP/1.1" 401 62
+WARNING 2025-09-26 23:25:40,057 log 6608 18376 Unauthorized: /api/products/upload-image/
+WARNING 2025-09-26 23:25:40,075 basehttp 6608 18376 "POST /api/products/upload-image/ HTTP/1.1" 401 62
+INFO 2025-09-26 23:27:07,415 autoreload 6608 17776 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 23:27:07,454 autoreload 20972 9120 C:\Users\a\Desktop\ecom_setup\ecom_project\ecom_project\backend\ecom_project\settings.py changed, reloading.
+INFO 2025-09-26 23:27:09,366 autoreload 8696 20372 Watching for file changes with StatReloader
+INFO 2025-09-26 23:27:09,370 autoreload 12884 14992 Watching for file changes with StatReloader
+INFO 2025-09-26 23:27:53,016 basehttp 12884 17804 "GET /admin/products/product/add/ HTTP/1.1" 200 112808
+INFO 2025-09-26 23:27:53,440 basehttp 12884 17804 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-09-26 23:27:53,446 basehttp 12884 17804 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-09-26 23:27:53,454 basehttp 12884 18324 "GET /static/custom_admin.js HTTP/1.1" 200 13327
+INFO 2025-09-26 23:27:53,455 basehttp 12884 17804 "GET /static/custom_admin.css HTTP/1.1" 200 18324
+INFO 2025-09-26 23:27:53,459 basehttp 12884 10036 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-09-26 23:27:53,460 basehttp 12884 17960 "GET /static/manual_product_tabs.js HTTP/1.1" 200 8121
+INFO 2025-09-26 23:27:53,461 basehttp 12884 13460 "GET /static/vendor/bootswatch/litera/bootstrap.min.css HTTP/1.1" 200 165148
+INFO 2025-09-26 23:27:53,485 basehttp 12884 10036 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-26 23:27:53,488 basehttp 12884 17960 "GET /static/product_tabs.js HTTP/1.1" 200 8233
+INFO 2025-09-26 23:27:53,488 basehttp 12884 13460 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-26 23:27:53,501 basehttp 12884 10036 "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2025-09-26 23:27:53,502 basehttp 12884 17804 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+INFO 2025-09-26 23:27:53,505 basehttp 12884 17960 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-26 23:27:53,508 basehttp 12884 13460 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-26 23:27:53,516 basehttp 12884 17804 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-26 23:27:53,517 basehttp 12884 10036 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-26 23:27:53,519 basehttp 12884 13460 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:27:53,526 basehttp 12884 18324 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-26 23:27:53,528 basehttp 12884 10036 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-09-26 23:27:53,531 basehttp 12884 13460 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-09-26 23:27:53,541 basehttp 12884 17960 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-26 23:27:53,543 basehttp 12884 10036 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-09-26 23:27:53,545 basehttp 12884 13460 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-09-26 23:27:53,550 basehttp 12884 2036 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-09-26 23:27:53,557 basehttp 12884 13460 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-09-26 23:27:53,557 basehttp 12884 10036 "GET /static/jazzmin/js/ui-builder.js HTTP/1.1" 200 13873
+INFO 2025-09-26 23:27:53,608 basehttp 12884 10036 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-09-26 23:27:53,610 basehttp 12884 13460 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-09-26 23:27:53,619 basehttp 12884 13460 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-26 23:27:53,625 basehttp 12884 13460 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-26 23:27:53,631 basehttp 12884 13460 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-09-26 23:27:53,641 basehttp 12884 13460 "GET /static/vendor/bootswatch/darkly/bootstrap.min.css HTTP/1.1" 200 164202
+INFO 2025-09-26 23:27:54,412 basehttp 12884 13460 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-09-26 23:28:02,144 basehttp 12884 13460 "POST /api/products/upload-image/ HTTP/1.1" 200 54
+INFO 2025-09-26 23:29:00,824 basehttp 12884 13460 "POST /admin/products/product/add/ HTTP/1.1" 302 0
+INFO 2025-09-26 23:29:00,955 basehttp 12884 13460 "GET /admin/products/product/ HTTP/1.1" 200 89742
+INFO 2025-09-26 23:29:00,980 basehttp 12884 13460 "GET /static/custom_admin.js HTTP/1.1" 304 0
+INFO 2025-09-26 23:29:00,990 basehttp 12884 10036 "GET /admin/jsi18n/ HTTP/1.1" 200 14010
+WARNING 2025-09-26 23:29:06,067 log 12884 17856 Not Found: /favicon.ico
+WARNING 2025-09-26 23:29:06,068 basehttp 12884 17856 "GET /favicon.ico HTTP/1.1" 404 4167
+INFO 2025-09-26 23:29:06,430 basehttp 12884 17592 "GET /api/products/ HTTP/1.1" 200 462
+WARNING 2025-09-26 23:29:06,462 log 12884 5012 Not Found: /logo192.png
+WARNING 2025-09-26 23:29:06,478 basehttp 12884 5012 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 23:29:06,479 basehttp 12884 15480 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-26 23:29:06,491 basehttp 12884 17592 "GET /api/products/ HTTP/1.1" 200 462
+WARNING 2025-09-26 23:29:06,534 log 12884 10156 Not Found: /logo192.png
+WARNING 2025-09-26 23:29:06,542 basehttp 12884 10156 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 23:29:06,543 basehttp 12884 15480 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-26 23:29:06,565 basehttp 12884 18252 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 23:29:06,583 basehttp 12884 18252 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 23:29:11,822 basehttp 12884 15480 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-26 23:29:11,846 basehttp 12884 15480 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-26 23:29:19,823 basehttp 12884 15480 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-26 23:29:19,830 basehttp 12884 17592 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-26 23:29:19,837 basehttp 12884 15480 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-26 23:29:19,848 basehttp 12884 17592 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-26 23:29:19,865 log 12884 3104 Not Found: /logo192.png
+INFO 2025-09-26 23:29:19,869 basehttp 12884 18252 "GET /api/products/banners/ HTTP/1.1" 200 2
+WARNING 2025-09-26 23:29:19,869 basehttp 12884 3104 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-26 23:29:19,874 basehttp 12884 18252 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-26 23:29:33,771 basehttp 12884 17592 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-26 23:29:33,789 basehttp 12884 17592 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 01:54:05,010 basehttp 12884 20912 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 01:54:48,312 basehttp 12884 20912 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 01:54:48,332 basehttp 12884 2580 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 01:54:49,111 log 12884 15236 Not Found: /favicon.ico
+WARNING 2025-09-27 01:54:49,111 basehttp 12884 15236 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 01:54:49,411 log 12884 5520 Not Found: /logo192.png
+WARNING 2025-09-27 01:54:49,412 basehttp 12884 5520 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 01:55:17,207 basehttp 12884 2580 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 01:55:17,216 basehttp 12884 20912 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-27 01:55:17,216 basehttp 12884 2580 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 01:55:17,222 basehttp 12884 20912 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-27 01:55:17,229 log 12884 21548 Not Found: /logo192.png
+WARNING 2025-09-27 01:55:17,230 basehttp 12884 21548 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 01:55:17,254 basehttp 12884 17844 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 01:55:17,256 basehttp 12884 17844 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 01:55:20,242 basehttp 12884 20912 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 01:55:20,254 basehttp 12884 20912 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:00:03,072 log 12884 19572 Not Found: /logo192.png
+WARNING 2025-09-27 02:00:03,073 basehttp 12884 19572 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:00:03,082 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:00:03,095 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:00:05,695 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:00:05,706 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:00:06,572 log 12884 9976 Not Found: /favicon.ico
+WARNING 2025-09-27 02:00:06,573 basehttp 12884 9976 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:00:06,577 log 12884 4664 Not Found: /logo192.png
+WARNING 2025-09-27 02:00:06,578 basehttp 12884 4664 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:02:27,682 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:02:49,536 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:02:49,554 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:02:50,408 log 12884 15912 Not Found: /favicon.ico
+WARNING 2025-09-27 02:02:50,408 basehttp 12884 15912 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:02:50,732 log 12884 22388 Not Found: /logo192.png
+WARNING 2025-09-27 02:02:50,733 basehttp 12884 22388 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:03:56,691 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:04:21,938 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:04:21,949 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:04:22,258 log 12884 20252 Not Found: /logo192.png
+WARNING 2025-09-27 02:04:22,259 basehttp 12884 20252 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:05:09,692 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:05:27,787 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:05:27,805 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:05:28,709 log 12884 10592 Not Found: /favicon.ico
+WARNING 2025-09-27 02:05:28,709 basehttp 12884 10592 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:05:29,033 log 12884 10076 Not Found: /logo192.png
+WARNING 2025-09-27 02:05:29,034 basehttp 12884 10076 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:06:37,685 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:08:52,707 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:09:09,391 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:09:09,401 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:09:09,740 log 12884 21316 Not Found: /logo192.png
+WARNING 2025-09-27 02:09:09,742 basehttp 12884 21316 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:09:10,115 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:09:10,118 log 12884 19968 Not Found: /logo192.png
+WARNING 2025-09-27 02:09:10,120 basehttp 12884 19968 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:09:10,129 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:09:10,955 log 12884 12572 Not Found: /logo192.png
+WARNING 2025-09-27 02:09:10,958 basehttp 12884 12572 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:09:10,959 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:09:10,970 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:09:11,600 log 12884 21088 Not Found: /logo192.png
+WARNING 2025-09-27 02:09:11,601 basehttp 12884 21088 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:09:11,601 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:09:11,612 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:09:15,130 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:09:15,144 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:09:16,025 log 12884 8560 Not Found: /favicon.ico
+WARNING 2025-09-27 02:09:16,027 basehttp 12884 8560 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:09:16,032 log 12884 21864 Not Found: /logo192.png
+WARNING 2025-09-27 02:09:16,033 basehttp 12884 21864 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:09:46,683 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:10:01,224 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:10:01,235 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:10:01,523 log 12884 16668 Not Found: /favicon.ico
+WARNING 2025-09-27 02:10:01,528 log 12884 6452 Not Found: /logo192.png
+WARNING 2025-09-27 02:10:01,528 basehttp 12884 16668 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:10:01,528 basehttp 12884 6452 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:10:23,691 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:10:36,318 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:10:36,329 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:10:37,130 log 12884 20872 Not Found: /favicon.ico
+WARNING 2025-09-27 02:10:37,130 basehttp 12884 20872 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:10:37,430 log 12884 20500 Not Found: /logo192.png
+WARNING 2025-09-27 02:10:37,431 basehttp 12884 20500 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:14:04,486 basehttp 12884 19776 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:14:04,486 basehttp 12884 18804 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:14:05,334 log 12884 15524 Not Found: /favicon.ico
+WARNING 2025-09-27 02:14:05,336 basehttp 12884 15524 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:14:05,647 log 12884 8860 Not Found: /logo192.png
+WARNING 2025-09-27 02:14:05,648 basehttp 12884 8860 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:26:53,996 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:27:03,273 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:27:03,288 basehttp 12884 20832 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:27:04,652 log 12884 17532 Not Found: /favicon.ico
+WARNING 2025-09-27 02:27:04,652 basehttp 12884 17532 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:27:04,976 log 12884 14500 Not Found: /logo192.png
+WARNING 2025-09-27 02:27:04,977 basehttp 12884 14500 "GET /logo192.png HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:27:05,618 log 12884 20144 Not Found: /logo192.png
+WARNING 2025-09-27 02:27:05,619 basehttp 12884 20144 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:27:05,619 basehttp 12884 20832 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:27:05,631 basehttp 12884 20832 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:27:35,747 basehttp 12884 20832 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:27:46,105 basehttp 12884 20832 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:27:46,115 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:27:46,615 log 12884 17592 Not Found: /favicon.ico
+WARNING 2025-09-27 02:27:46,618 log 12884 19172 Not Found: /logo192.png
+WARNING 2025-09-27 02:27:46,618 basehttp 12884 17592 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:27:46,619 basehttp 12884 19172 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:28:37,686 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:28:49,557 basehttp 12884 20832 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:28:49,565 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:28:50,151 log 12884 19640 Not Found: /favicon.ico
+WARNING 2025-09-27 02:28:50,151 basehttp 12884 19640 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:28:50,460 log 12884 15324 Not Found: /logo192.png
+WARNING 2025-09-27 02:28:50,461 basehttp 12884 15324 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:29:19,686 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:29:29,967 basehttp 12884 20832 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:29:29,987 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:29:30,363 log 12884 21724 Not Found: /favicon.ico
+WARNING 2025-09-27 02:29:30,365 basehttp 12884 21724 "GET /favicon.ico HTTP/1.1" 404 4167
+WARNING 2025-09-27 02:29:30,370 log 12884 21264 Not Found: /logo192.png
+WARNING 2025-09-27 02:29:30,371 basehttp 12884 21264 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:30:12,693 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+WARNING 2025-09-27 02:30:25,334 log 12884 20304 Not Found: /logo192.png
+WARNING 2025-09-27 02:30:25,334 basehttp 12884 20304 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:30:25,996 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:30:26,391 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:30:31,706 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:30:31,710 basehttp 12884 20832 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-27 02:30:31,713 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:30:31,716 basehttp 12884 20832 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-27 02:30:31,726 log 12884 10128 Not Found: /logo192.png
+WARNING 2025-09-27 02:30:31,726 basehttp 12884 10128 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:30:31,756 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:30:31,759 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:30:49,777 basehttp 12884 20832 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-27 02:30:49,784 basehttp 12884 20832 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-27 02:30:51,831 basehttp 12884 20832 "GET /api/products/?category=1 HTTP/1.1" 200 462
+INFO 2025-09-27 02:30:54,838 basehttp 12884 20832 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:30:54,843 basehttp 12884 15276 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-27 02:30:54,850 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:30:54,850 basehttp 12884 20832 "GET /api/products/ HTTP/1.1" 200 462
+WARNING 2025-09-27 02:30:54,860 log 12884 20784 Not Found: /logo192.png
+INFO 2025-09-27 02:30:54,862 basehttp 12884 15276 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-27 02:30:54,862 basehttp 12884 20784 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:30:54,862 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:30:59,305 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:30:59,311 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:31:01,734 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:31:01,747 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:31:46,867 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:31:46,872 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:33:17,996 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:33:18,010 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:33:59,698 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:34:47,943 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:34:47,955 basehttp 12884 15276 "GET /api/products/1/ HTTP/1.1" 200 717
+INFO 2025-09-27 02:35:03,155 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:35:03,161 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:35:10,416 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:35:10,421 basehttp 12884 20832 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-27 02:35:10,426 basehttp 12884 15276 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:35:10,431 basehttp 12884 20832 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-27 02:35:10,437 log 12884 22432 Not Found: /logo192.png
+WARNING 2025-09-27 02:35:10,437 basehttp 12884 22432 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:35:10,449 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:35:10,452 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:35:32,451 basehttp 12884 20832 "OPTIONS /api/users/login/ HTTP/1.1" 200 0
+WARNING 2025-09-27 02:35:33,945 log 12884 20832 Bad Request: /api/users/login/
+WARNING 2025-09-27 02:35:33,946 basehttp 12884 20832 "POST /api/users/login/ HTTP/1.1" 400 89
+INFO 2025-09-27 02:36:03,733 basehttp 12884 20832 "POST /api/users/login/ HTTP/1.1" 200 790
+INFO 2025-09-27 02:36:03,740 basehttp 12884 15276 "OPTIONS /api/products/categories/ HTTP/1.1" 200 0
+INFO 2025-09-27 02:36:03,740 basehttp 12884 20832 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-09-27 02:36:03,740 basehttp 12884 11660 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-09-27 02:36:03,741 basehttp 12884 15276 "OPTIONS /api/products/categories/ HTTP/1.1" 200 0
+INFO 2025-09-27 02:36:03,750 basehttp 12884 20832 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:36:03,759 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:36:03,760 basehttp 12884 11660 "GET /api/products/categories/ HTTP/1.1" 200 223
+INFO 2025-09-27 02:36:03,764 basehttp 12884 20832 "GET /api/products/ HTTP/1.1" 200 462
+INFO 2025-09-27 02:36:03,766 basehttp 12884 18596 "GET /api/products/banners/ HTTP/1.1" 200 2
+INFO 2025-09-27 02:36:03,769 basehttp 12884 11660 "GET /api/products/categories/ HTTP/1.1" 200 223
+WARNING 2025-09-27 02:36:04,107 log 12884 9436 Not Found: /logo192.png
+WARNING 2025-09-27 02:36:04,108 basehttp 12884 9436 "GET /logo192.png HTTP/1.1" 404 4167
+INFO 2025-09-27 02:36:27,375 basehttp 12884 11660 "OPTIONS /api/orders/create/ HTTP/1.1" 200 0
+WARNING 2025-09-27 02:36:27,424 log 12884 11660 Bad Request: /api/orders/create/
+WARNING 2025-09-27 02:36:27,425 basehttp 12884 11660 "POST /api/orders/create/ HTTP/1.1" 400 25
