@@ -6,24 +6,23 @@ import json
 # Initialize Firebase
 def initialize_firebase():
     try:
-        # Check if Firebase is already initialized
         if not firebase_admin._apps:
-            # Get the path to the service account key
-            firebase_key_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'firebase', 'ecomproject-a8173-38763797948f.json')
+            # اقرأ JSON من Environment Variable
+            firebase_json = os.environ.get('FIREBASE_CREDENTIALS_JSON')
+            if not firebase_json:
+                print("Firebase credentials JSON not found in environment")
+                return False
 
-            # Initialize Firebase Admin with the service account
-            cred = credentials.Certificate(firebase_key_path)
+            cred_dict = json.loads(firebase_json)
+            cred = credentials.Certificate(cred_dict)
             firebase_admin.initialize_app(cred)
-
             print("Firebase initialized successfully")
-            return True
         else:
             print("Firebase already initialized")
-            return True
+        return True
     except Exception as e:
         print(f"Error initializing Firebase: {str(e)}")
         return False
-
 # Send notification to a specific device
 def send_notification_to_device(token, title, body, data=None):
     try:
