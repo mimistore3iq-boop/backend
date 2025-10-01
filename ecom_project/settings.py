@@ -38,7 +38,7 @@ LOCAL_APPS = [
     'users',
     'products',
     'orders.apps.OrdersConfig',
-    'backend.notifications',
+    'notifications',
 ]
 
 INSTALLED_APPS = ['jazzmin'] + DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'backend.ecom_project.urls'
+ROOT_URLCONF = 'ecom_project.urls'
 
 TEMPLATES = [
     {
@@ -68,13 +68,13 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'backend.ecom_project.context_processors.currency',
+                'ecom_project.context_processors.currency',
             ],
         },
     },
 ]
 
-WSGI_APPLICATION = 'backend.ecom_project.wsgi.application'
+WSGI_APPLICATION = 'ecom_project.wsgi.application'
 
 # Database
 DATABASES = {
