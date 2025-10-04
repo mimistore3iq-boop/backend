@@ -1,24 +1,106 @@
 
 // Product Form JavaScript
 document.addEventListener('DOMContentLoaded', function() {
-    // Tab functionality
+    // Tab functionality - Manual navigation
     const tabButtons = document.querySelectorAll('.tab-nav-item');
     const tabContents = document.querySelectorAll('.tab-content');
 
+    // Function to switch tabs manually
+    window.switchTab = function(tabId) {
+        // Remove active class from all tabs and contents
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+
+        // Find and activate the requested tab
+        const targetTab = document.querySelector(`[data-tab="${tabId}"]`);
+        const targetContent = document.getElementById(tabId);
+
+        if (targetTab && targetContent) {
+            targetTab.classList.add('active');
+            targetContent.classList.add('active');
+        }
+    };
+
+    // Keep click functionality as well
     tabButtons.forEach(button => {
         button.addEventListener('click', function() {
-            // Remove active class from all tabs and contents
-            tabButtons.forEach(btn => btn.classList.remove('active'));
-            tabContents.forEach(content => content.classList.remove('active'));
-
-            // Add active class to clicked tab
-            this.classList.add('active');
-
-            // Show corresponding content
             const tabId = this.getAttribute('data-tab');
-            document.getElementById(tabId).classList.add('active');
+            window.switchTab(tabId);
+            updateTabIndicator();
         });
     });
+
+    // Manual navigation function
+    window.navigateTab = function(direction) {
+        const activeTab = document.querySelector('.tab-nav-item.active');
+        const tabs = Array.from(tabButtons);
+        const currentIndex = tabs.indexOf(activeTab);
+
+        let newIndex;
+        if (direction === 'next') {
+            newIndex = (currentIndex + 1) % tabs.length;
+        } else if (direction === 'prev') {
+            newIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+        }
+
+        const newTabId = tabs[newIndex].getAttribute('data-tab');
+        window.switchTab(newTabId);
+        updateTabIndicator();
+
+        // Scroll to top on mobile
+        if (window.innerWidth <= 768) {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    };
+
+    // Add swipe support for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.addEventListener('touchstart', function(e) {
+        touchStartX = e.changedTouches[0].screenX;
+    }, false);
+
+    document.addEventListener('touchend', function(e) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, false);
+
+    function handleSwipe() {
+        // Only handle swipe if it's significant enough
+        if (Math.abs(touchEndX - touchStartX) < 50) return;
+
+        if (touchEndX < touchStartX) {
+            // Swiped left - go to next tab
+            navigateTab('next');
+        }
+        if (touchEndX > touchStartX) {
+            // Swiped right - go to previous tab
+            navigateTab('prev');
+        }
+    }
+
+    // Update tab indicator
+    function updateTabIndicator() {
+        const activeTab = document.querySelector('.tab-nav-item.active');
+        const tabs = Array.from(tabButtons);
+        const currentIndex = tabs.indexOf(activeTab) + 1; // +1 for 1-based index
+
+        document.querySelector('.current-tab').textContent = currentIndex;
+
+        // Update button states
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+
+        prevBtn.disabled = currentIndex === 1;
+        nextBtn.disabled = currentIndex === tabs.length;
+    }
+
+    // Initialize tab indicator
+    updateTabIndicator();
 
     // Auto-populate related fields
     const nameField = document.getElementById('id_name');

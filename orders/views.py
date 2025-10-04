@@ -4,7 +4,10 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from .models import Order, OrderItem
 from .serializers import OrderSerializer, CreateOrderSerializer
-from ..firebase_service import initialize_firebase, send_notification_to_topic
+from notifications.firebase_service import send_notification_to_topic, subscribe_to_topic
+from notifications.views import create_notification
+from django.contrib.auth import get_user_model
+
 
 class OrderViewSet(viewsets.ModelViewSet):
     queryset = Order.objects.all()
@@ -17,43 +20,34 @@ class OrderViewSet(viewsets.ModelViewSet):
         return OrderSerializer
 
     def create(self, request, *args, **kwargs):
-        # Initialize Firebase
-        initialize_firebase()
-
-        # Get items from request data
-        items = request.data.get('items', [])
-
-        # Create serializer with items context
-        serializer = self.get_serializer(data=request.data)
+        """
+        Creates an order, its items, and sends a notification to admins.
+        """
+        serializer = self.get_serializer(data=request.data, context={'request': request})
         serializer.is_valid(raise_exception=True)
-
-        # Create order with items
-        self.perform_create(serializer, items)
-
+        
+        # The serializer's .create() method now handles creating the order and its items.
+        order = serializer.save()
+        
+        # Send notification to admins
+        self.send_admin_notification(order)
+        
+        # Re-serialize the created order instance with the default serializer to include all fields
+        response_serializer = OrderSerializer(order)
         headers = self.get_success_headers(serializer.data)
+        return Response(response_serializer.data, status=status.HTTP_201_CREATED, headers=headers)
 
-        # Send notification to admin
-        self.send_admin_notification(serializer.data)
-
-        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
-
-    def perform_create(self, serializer, items=None):
-        serializer.save(items=items)
-
-    def send_admin_notification(self, order_data):
+    def send_admin_notification(self, order: Order):
+        """Sends a notification to all staff users about a new order."""
         try:
-            from django.contrib.auth import get_user_model
-            from notifications.views import create_notification
             User = get_user_model()
-
-            # Get admin users
-            admin_users = User.objects.filter(is_staff=True)
+            admin_users = User.objects.filter(is_staff=True, is_active=True)
 
             # Prepare notification data
             notification_data = {
-                'order_id': str(order_data['id']),
-                'customer_name': order_data['customer_name'],
-                'total': str(order_data['total']),
+                'order_id': str(order.id),
+                'customer_name': order.customer_name,
+                'total': str(order.total),
                 'type': 'new_order'
             }
 
@@ -62,8 +56,8 @@ class OrderViewSet(viewsets.ModelViewSet):
                 create_notification(
                     recipient=admin,
                     type='new_order',
-                    title='طلب جديد',
-                    message=f'طلب جديد من {order_data["customer_name"]} بقيمة {order_data["total"]} د.ع',
+                    title=f'طلب جديد #{str(order.id)[:8]}',
+                    message=f'طلب جديد من {order.customer_name} بقيمة {order.total} د.ع',
                     data=notification_data
                 )
 
@@ -71,7 +65,7 @@ class OrderViewSet(viewsets.ModelViewSet):
             send_notification_to_topic(
                 topic='admin_orders',
                 title='طلب جديد',
-                body=f'طلب جديد من {order_data["customer_name"]} بقيمة {order_data["total"]} د.ع',
+                body=f'طلب جديد من {order.customer_name} بقيمة {order.total} د.ع',
                 data=notification_data
             )
         except Exception as e:
@@ -85,15 +79,9 @@ class OrderViewSet(viewsets.ModelViewSet):
             if not token:
                 return Response({'error': 'Token is required'}, status=status.HTTP_400_BAD_REQUEST)
 
-            # Initialize Firebase
-            initialize_firebase()
-
             # Subscribe the token to admin topic
-            from ..firebase_service import subscribe_to_topic
             subscribe_to_topic([token], 'admin_orders')
 
             return Response({'success': 'Token registered successfully'})
         except Exception as e:
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-
-        

@@ -14,9 +14,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-me-in-production')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=True, cast=bool)
+DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1').split(',')
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.0.0.0.0').split(',')
 
 # Application definition
 DJANGO_APPS = [
@@ -39,6 +39,7 @@ LOCAL_APPS = [
     'products',
     'orders.apps.OrdersConfig',
     'notifications',
+    'test_app',
 ]
 
 INSTALLED_APPS = ['jazzmin'] + DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -135,7 +136,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
     ],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 20,
@@ -168,11 +169,20 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
+    'http://localhost:3002',  # Frontend
+    'http://127.0.0.1:3002',  # Frontend
     'http://localhost:5500',  # Live Server
     'http://127.0.0.1:5500',  # Live Server
+    'http://localhost:8000',  # Backend API port
+    'http://127.0.0.1:8000',  # Backend API port
     'http://localhost:8080',  # Alternative port
     'http://127.0.0.1:8080',  # Alternative port
 ]
+
+# Render frontend URL (will be replaced during deployment)
+RENDER_FRONTEND_URL = config('RENDER_FRONTEND_URL', default='')
+if RENDER_FRONTEND_URL:
+    CORS_ALLOWED_ORIGINS.append(RENDER_FRONTEND_URL)
 
 # Allow file:// protocol for local HTML files
 CORS_ALLOW_ALL_ORIGINS = True  # For development only
@@ -211,6 +221,11 @@ if not DEBUG:
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
     SECURE_HSTS_PRELOAD = True
+else:
+    # Disable SSL redirect in development
+    SECURE_SSL_REDIRECT = False
+    SESSION_COOKIE_SECURE = False
+    CSRF_COOKIE_SECURE = False
 
 # Logging Configuration
 LOGGING = {

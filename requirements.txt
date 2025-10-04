@@ -18,6 +18,9 @@ firebase-admin==6.5.0
 # Static files
 whitenoise==6.10.0
 
+# Production server
+gunicorn==21.2.0
+
 # Additional utilities
 Pillow==11.0.0
 requests==2.32.5

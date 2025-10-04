@@ -8,7 +8,12 @@ urlpatterns = [
     path('featured/', views.featured_products, name='featured_products'),
     path('search/', views.search_products, name='search_products'),
 
+    path('upload-image/', views.upload_image_to_imgbb, name='upload_image'),
+
     # Categories
     path('categories/', views.category_list, name='category_list'),
+    
+    # Banners
+    path('banners/', views.banner_list, name='banner_list'),
 ]
 
